@@ -143,10 +143,11 @@ class PlaneFigure(ABC):
  
     @abstractmethod
     def compute_perimeter(self):
-        pass
+        return NotImplementedError
+        
     @abstractmethod
     def compute_surface(self):
-        pass
+        return NotImplementedError
 
 class Triangle(PlaneFigure):
     def __init__(self, base, c1, c2, h):

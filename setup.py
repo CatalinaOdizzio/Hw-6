@@ -14,7 +14,7 @@ def get_requirements(requirements_path='requirements.txt'):
     with open(requirements_path) as fp:
         return [x.strip() for x in fp.read().split('\n') if not x.startswith('#')]
 setuptools.setup(
-    name='medialuna',
+    name='arepa',
     version='0.1',
     description='Library for CDS HW6',
     license = 'MIT',

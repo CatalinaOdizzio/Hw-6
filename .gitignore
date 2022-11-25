@@ -5,3 +5,4 @@
 /build
 /dist
 /src/arepa.egg-info
+__pycache__/
